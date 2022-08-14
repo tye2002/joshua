@@ -25,14 +25,8 @@
                   messageSuccess = "Chính xác.";
                   $("#error").text("")
                   $("#success").text(messageSuccess)
-
-                  let src = ".//Joshua.png";
-                  var img = document.createElement("img");
-                  img.src = src;
-                  img.width = 1920;
-                  img.height = 300;
-                  img.alt = "Joshua Key";
-                  document.body.appendChild(img);
+                  $("#key").text("[3] [4] [8] Có 1 số đúng và đặt đúng vị trí")
+                  
                   document.getElementById("submit").disabled = true;
                   document.getElementById("typePassword").disabled = true;
               }
@@ -95,7 +89,7 @@
   </style>
 </head>
   <body>
-        <div class="center gradient-custom col-lg-12">
+        <div class="center gradient-custom col-lg-6">
             <div class="col-lg-12">
               <h2 class="col-lg-12">Find the key!</h2>
               <p class="col-lg-12">Câu trả lời gồm 32 ký tự, viết liền, không dấu, viết hoa ở ký tự thứ 23 và 26!</p>
@@ -110,6 +104,7 @@
     
               <p id="error"></p>
               <p id="success"></p>
+              <p id="key"></p>
             </div>
           
 
