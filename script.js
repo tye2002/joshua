@@ -14,7 +14,7 @@ $(document).ready(function(){
             messageSuccess = "Chính xác.";
             $("#error").text("")
             $("#success").text(messageSuccess)
-            $("#key").text("[3] [4] [8] Có 1 số đúng và đặt đúng vị trí")
+            $("#key").text("[3]-[4]-[8] Có 1 số đúng và đặt đúng vị trí")
             
             document.getElementById("submit").disabled = true;
             document.getElementById("typePassword").disabled = true;
